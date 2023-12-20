@@ -32,6 +32,10 @@ nav ul li:hover {
 }
 select {
   display: none;
+  border: 1px solid #4376b4;
+  border-radius: 6px;
+  background-color: #646e7a;
+  color: #f5f8fa;
 }
 @media only screen and (max-width: 600px) {
   nav {
@@ -60,16 +64,21 @@ section {
 }
 @media only screen and (max-width: 600px) {
   .hero {
-    width: 70%;
+    width: 80%;
     display: block;
     height: 100%;
   }
 }
 .box1 {
   width: 100%;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
-
+@media only screen and (max-width: 600px) {
+  .box1 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
 .box1 h1 {
   font-size: 16px;
   margin-top: 20px;
@@ -120,6 +129,14 @@ input {
   background-color: #646e7a25;
   outline-color: #1179bfb7;
   margin-top: 5px;
+}
+.email {
+  width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .email {
+    width: 100%;
+  }
 }
 .Pinfo {
   margin-top: 60px;
